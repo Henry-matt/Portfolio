@@ -6,7 +6,6 @@ body {
 .cabeca {
     background-color: rgb(19, 0, 53);
     color: #f1f1f1;
-
 }
 
 .deixa-de-ladinho {
@@ -21,7 +20,7 @@ body {
 .foto-da-lenda {
     width: 20rem;
     border-radius: 100%;
-    border: #000000 3px solid ; 
+    border: #000000 3px solid;
 }
 
 .dadu {
@@ -47,7 +46,7 @@ body {
     text-decoration: none;
     padding: 5px;
     font-size: 35px;
-    border: #000000 3px solid ;
+    border: #000000 3px solid;
     border-radius: 7px;
 }
 
@@ -123,7 +122,6 @@ a {
 .Sobre-mim {
     color: whitesmoke;
     padding: 5% 25%;
-
 }
 
 .sogra-mim {
@@ -149,12 +147,64 @@ a {
     font-size: 25px;
 }
 
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+    .deixa-de-ladinho {
+        padding: 5%;
+    }
+
+    .projeto {
+        width: 50%;
+    }
+}
+
 @media (max-width: 480px) {
-    * {
-        margin: 0;
+    .deixa-de-ladinho {
+        padding: 2%;
+    }
+
+    .foto-da-lenda {
+        width: 15rem;
+    }
+
+    .meu-apelido {
+        font-size: 24px;
+    }
+
+    .porra-nenhuma {
+        font-size: 20px;
+    }
+
+    .titulo-do-projeto {
+        font-size: 24px;
+    }
+
+    .paragrafo {
+        font-size: 14px;
     }
 
     .img {
-        height: 25%;
+        height: 20rem;
+    }
+
+    .nav {
+        font-size: 20px;
+    }
+
+    .Sobre-mim {
+        padding: 5% 10%;
+    }
+
+    .titulo-do-sobre-mim {
+        font-size: 30px;
+    }
+
+    .paragrafo-sobre-mim {
+        font-size: 18px;
+    }
+
+    .footer {
+        font-size: 20px;
     }
 }
